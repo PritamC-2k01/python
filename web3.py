@@ -16,10 +16,10 @@ num=1
 sum=0
 for tag in tags:
     
-    print("students "+ str(num)+" "+tag.text)
+    print("student "+ str(num)+" "+tag.text)
     sum=sum+int(tag.text)
     num+=1
-print(num-1)
+#print(num-1)
 print(sum)
 
 
